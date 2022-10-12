@@ -1,5 +1,5 @@
-# 6100-Project1
-Git Hub Repository for ITCS 6100
+# Group Project for ITCS 6100
+Git Hub Repository for ITCS 6100 Project
 
 ## Members
 An Huynh
