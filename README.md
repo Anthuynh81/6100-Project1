@@ -13,7 +13,7 @@ Meet once a week at the libary. If we get behind, we can increase the amount we 
 Our Business Problem relates to the sale of electric cars. In order to increase sales, we want to look at electric car data in order to see what features of electric cars have the biggest impact on sales. We want to look at many different aspects of the car from range, battery capacity, speed, acceleration, etc to see what can be done to increase sales.
 
 ## Dataset 
-https://www.kaggle.com/datasets/kkhandekar/cheapest-electric-cars
+https://www.kaggle.com/datasets/ananaymital/us-used-cars-dataset
 
 ## Research Objectives and Question
 1. Which model of the car has the biggest battery capacity yet is the least expensive to purchase? 
