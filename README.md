@@ -28,6 +28,7 @@ https://www.kaggle.com/datasets/ananaymital/us-used-cars-dataset
 
 ## Exploratory Data Analysis
 During the data exploration phase, one of our goals was to investigate the data to see what aspects of the information would be helpful in achieving the goals and answering the questions of our research. The data set that we have on used automobiles comprises 67 different features, but the vast majority of these features won't be required in order to move forward with the project. With Sagemaker Data Wrangler, we have access to a tool called Insights On Data and Data Quality, which allows us to perform an analysis on the data and obtain information on each of these characteristics. I've attached a picture below showing the general dataset statistics that were generated regarding our data. It may be found below.
+
 ![image](https://user-images.githubusercontent.com/55640125/200463760-2f73c80f-e437-4bed-a4b0-5c639e344be4.png)
 
 We are able to observe that many of these capabilities are not necessary and contribute very little to nothing of value to the overall analytics as a result of using the tool. Features such as bed are examples of features that we do not require. The feature summary reveals that only 0.688% of the rows are legitimate; this is one example of a feature that we do not require. I have added a picture of the findings to this post below.
