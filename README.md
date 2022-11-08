@@ -30,11 +30,16 @@ This is the questions i come up with for our group proj
 ## Exploratory Data Analysis
 For data exporation, we wanted to look into the data to see what was going to be useful in answering our research objectives and questions. Our data set on used cars has 67 different features and most of these features won't be necessary in moving forward with the project. Using Sagemaker Data Wrangler, we can use their Insights On Data and Data Quality tool to be able to analyze the data and get information on each of these features. Below I've attached an image of the general dataset statistics generated about our data.
 ![image](https://user-images.githubusercontent.com/55640125/200463760-2f73c80f-e437-4bed-a4b0-5c639e344be4.png)
+
 From the tool, we are able to see that many of these features are unnecessary and provide little to no value to the overal analytics. Some example of features we don't need are features like bed, which in the feature summary shows that only 0.688% of the rows are valid. Below I've attached an image of the results.
+
 ![image](https://user-images.githubusercontent.com/55640125/200463935-a6bc4989-4ff3-4164-86ec-d16869cc6662.png)
+
 Additionally, we are able to see that some features in our tables need some additional data cleanup in which different values can be changed to create better data. This can be seen in the graphic below showing the engine_type feature.
+
 ![image](https://user-images.githubusercontent.com/55640125/200464166-bdcce68f-0d83-4cf5-a1db-6dd9e1b7ec1c.png)
-In the graphic, we can see that some of the categories can and should be consolidated to help better handle things like outliers.
+
+In the graphic, we can see that some of the categories can and should be consolidated to help better handle things like outliers. Overall, we are able to see that a lot of different features need to be removed or cleaned up in order to prepare for the next part of the project. 
 
 ## Dashboard
 For our dashboard for the project, we decided used AWS sagemaker, Attached in the deliverable 2 folder in this github, we have the different graphs that were generated. The main visual comes from the Ingiths on Data and Data Quality tool which gave us indepth information on each of the features within our table. The dashboard istelf has feature summaries as well as frequency histograms of the data.
