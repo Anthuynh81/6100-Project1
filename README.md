@@ -16,10 +16,22 @@ Our Business Problem relates to the sale of electric cars. In order to increase 
 https://www.kaggle.com/datasets/ananaymital/us-used-cars-dataset
 
 ## Research Objectives and Question
-1. Which model of the car has the biggest battery capacity yet is the least expensive to purchase? 
+1. Which car model is the most affordable to buy while still having the best overall fuel efficiency? 
 
-2. What kind of link exists between the cost and the rapid charging rate? 
+2. What type of relationship does the price have with the miles per gallon? 
 
-3. In general, is there any kind of connection between the price range and the prices themselves? 
+3. Given that different cities have varying average fuel efficiencies, which city has the highest and lowest average fuel efficiencies? And which automaker is popular in those cities? Exist any relationships at all? 
 
-4. In general, is there any kind of correlation between the maximum speed, the acceleration, and the cost of the vehicle?
+4. Is there often a relationship of any type between the top speed, the acceleration, and the cost of the vehicle?
+This is the questions i come up with for our group proj
+
+## Deliverable 2
+
+## Exploratory Data Analysis
+After exploring th
+
+## Dashboard
+For our dashboard for the project, we decided used AWS sagemaker, Attached in the deliverable 2 folder in this github, we have the different graphs that were generated.
+
+## Data Preparation
+To prepare our data for the next part of the project, we used Sage Maker to transform the initial dataset to be more fitting for machine learning applications.
