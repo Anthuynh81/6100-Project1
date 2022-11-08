@@ -6,45 +6,44 @@ Git Hub Repository for ITCS 6100 Project
 - He Zhao 
 
 ## Communication Plan
-Meet once a week at the libary. If we get behind, we can increase the amount we meet in order to hit the deadline.
+We will get together at the library once a week. In the event that we go behind schedule, we have the option of increasing the total amount that we contribute in order to fulfill the target date.
 
 ## Business Problem or Opportunity, Domain Knowledge
 
-Our Business Problem relates to the sale of electric cars. In order to increase sales, we want to look at electric car data in order to see what features of electric cars have the biggest impact on sales. We want to look at many different aspects of the car from range, battery capacity, speed, acceleration, etc to see what can be done to increase sales.
+The distribution of  used automobiles is at the heart of our company's operational challenge. In order to boost sales, we are planning to analyze data pertaining to used cars in order to determine which aspects of electric used cars have the greatest influence on sales. We want to investigate many different characteristics of the car, including as its range, speed, and acceleration, amongst other things, to determine what may be done to enhance sales.
 
 ## Dataset 
 https://www.kaggle.com/datasets/ananaymital/us-used-cars-dataset
 
 ## Research Objectives and Question
-1. Which car model is the most affordable to buy while still having the best overall fuel efficiency? 
+1. Which kind of automobile is the least expensive to purchase while offering the highest possible combined gas mileage rating?
 
-2. What type of relationship does the price have with the miles per gallon? 
+2. What kind of a correlation exists between the cost and the number of miles that can be traveled per gallon?
 
-3. Given that different cities have varying average fuel efficiencies, which city has the highest and lowest average fuel efficiencies? And which automaker is popular in those cities? Exist any relationships at all? 
+3. Considering that the average fuel efficiency of cities varies, which city has the highest average fuel efficiency, and which city has the lowest average fuel efficiency? Which car manufacturer is most well-known in those cities, though? Exist even the remotest possibility of ties?
 
-4. Is there often a relationship of any type between the top speed, the acceleration, and the cost of the vehicle?
-This is the questions i come up with for our group proj
+4. Does the max speed, acceleration, and the cost of the car often have any kind of a link with one another in any way?
 
 # Deliverable 2
 
 ## Exploratory Data Analysis
-For data exporation, we wanted to look into the data to see what was going to be useful in answering our research objectives and questions. Our data set on used cars has 67 different features and most of these features won't be necessary in moving forward with the project. Using Sagemaker Data Wrangler, we can use their Insights On Data and Data Quality tool to be able to analyze the data and get information on each of these features. Below I've attached an image of the general dataset statistics generated about our data.
+During the data exploration phase, one of our goals was to investigate the data to see what aspects of the information would be helpful in achieving the goals and answering the questions of our research. The data set that we have on used automobiles comprises 67 different features, but the vast majority of these features won't be required in order to move forward with the project. With Sagemaker Data Wrangler, we have access to a tool called Insights On Data and Data Quality, which allows us to perform an analysis on the data and obtain information on each of these characteristics. I've attached a picture below showing the general dataset statistics that were generated regarding our data. It may be found below.
 ![image](https://user-images.githubusercontent.com/55640125/200463760-2f73c80f-e437-4bed-a4b0-5c639e344be4.png)
 
-From the tool, we are able to see that many of these features are unnecessary and provide little to no value to the overal analytics. Some example of features we don't need are features like bed, which in the feature summary shows that only 0.688% of the rows are valid. Below I've attached an image of the results.
+We are able to observe that many of these capabilities are not necessary and contribute very little to nothing of value to the overall analytics as a result of using the tool. Features such as bed are examples of features that we do not require. The feature summary reveals that only 0.688% of the rows are legitimate; this is one example of a feature that we do not require. I have added a picture of the findings to this post below.
 
 ![image](https://user-images.githubusercontent.com/55640125/200463935-a6bc4989-4ff3-4164-86ec-d16869cc6662.png)
 
-Additionally, we are able to see that some features in our tables need some additional data cleanup in which different values can be changed to create better data. This can be seen in the graphic below showing the engine_type feature.
+In addition, we are able to observe that some of the characteristics in our tables require some more data cleanup, which consists of changing certain variables in order to provide improved data. This is demonstrated in the figure that follows, which illustrates the engine type feature.
 
 ![image](https://user-images.githubusercontent.com/55640125/200464166-bdcce68f-0d83-4cf5-a1db-6dd9e1b7ec1c.png)
 
-In the graphic, we can see that some of the categories can and should be consolidated to help better handle things like outliers. Overall, we are able to see that a lot of different features need to be removed or cleaned up in order to prepare for the next part of the project. 
+It is clear from the image that some of the categories can and should be combined in order to provide a more effective management of issues such as outliers. In general, we are able to observe that in order to get ready for the subsequent stage of the project, a wide variety of elements, both old and new, will need to be eliminated or cleaned up.
 
 ## Dashboard
-For our dashboard for the project, we decided used AWS sagemaker, Attached in the deliverable 2 folder in this github, we have the different graphs that were generated. The main visual comes from the Insight on Data and Data Quality tool which gave us indepth information on each of the features within our table. The dashboard istelf has feature summaries as well as frequency histograms of the data. We also created additional graphics that show correlation between the major features in the data.
+We came to the conclusion that AWS Sagemaker would be the best choice for our project's dashboard. We have included all of the various graphs that were generated in this github, and you can find them in the folder labeled "deliverable 2." The primary visual was derived from the Insight on Data and Data Quality tool, which provided us with comprehensive information on each of the attributes contained inside our table. The dashboard itself has feature summaries, in addition to frequency histograms that display the data. Additional visualizations that highlight the association between the primary characteristics of the data were also generated by our team.
 
 ## Data Preparation
-Using the data we gained from Sagemaker Data Wrangler, we are able to use Sagemaker Studio to transform our data to prepare for the next step in the project. One of the first things that we did in order to prep the data is to sample the data. Although this might create sampling bias, the original data set had over 3 million data points which is too much in our use case. With out limited amount of money that we can spend and the increased processing time to process so much data, we decided to random sample 50,000 rows from the orginal data set. Then, we went ahead and cleaned up some of the columns itself. Many of the columns had labels within the rows which made the data become strings instead of the numerical data which is easier to work with. Using the data flow from SageMaker Studio, we cleaned the data so we could use it to create graphs and other visuals. Then, after the data exploration, we were able to find many different features that weren't used or are less important in our overall analysis so we used a similar process to remove them from the table. After all of these steps, our data should be prepared for the next step in the project. Below, I have attached an image of what it looks like in SageMaker to do the transformations said earlier.
+We were able to modify our data using Sagemaker Studio by making use of the information that we obtained from Sagemaker Data Wrangler. This allowed us to get ready for the next phase of the project. In order to get the data ready, one of the first things that we did was to take some samples of the data. In spite of the fact that this could result in sample bias, the original data collection contained more than 3 million data points, which was far too many for our particular application. Given the restricted amount of money that we are able to spend and the increased amount of processing time required to handle such a large amount of data, we came to the conclusion that the best way to proceed would be to randomly choose 50,000 rows from the original data set. Following that, we proceeded to tidy up some of the columns on their own. Because many of the rows contained labels for the columns, the data were transformed into strings rather than the more straightforward numerical data. This made it more difficult to deal with the data. We cleaned up the data by employing SageMaker Studio's data flow in order to prepare it for use in the creation of graphs and other types of visualizations. Then, following the data exploration, we were able to locate many different features that either weren't used or are less essential in our overall study, so we used a similar procedure to delete them from the table. This was done after we had discovered these features. Following the completion of all of these procedures, our data ought to be ready for the next phase of the project. I have attached a picture that shows how it appears in SageMaker when you perform the transformations that were mentioned before in this paragraph.
 ![image](https://user-images.githubusercontent.com/55640125/200463332-1592554d-1c82-4edc-a166-0258bc46194c.png)
 
