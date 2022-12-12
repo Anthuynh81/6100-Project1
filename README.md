@@ -23,7 +23,7 @@ https://www.kaggle.com/datasets/ananaymital/us-used-cars-dataset
 3. Considering that the average fuel efficiency of cities varies, which city has the highest average fuel efficiency, and which city has the lowest average fuel efficiency? Which car manufacturer is most well-known in those cities, though? Exist even the remotest possibility of ties?
 
 4. Does the max speed, acceleration, and the cost of the car often have any kind of a link with one another in any way?
-
+# Deliverable 3
 # Deliverable 2
 
 ## Exploratory Data Analysis
