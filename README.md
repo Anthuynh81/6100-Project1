@@ -24,17 +24,17 @@ https://www.kaggle.com/datasets/ananaymital/us-used-cars-dataset
 
 4. Does the max speed, acceleration, and the cost of the car often have any kind of a link with one another in any way?
 # Deliverable 3
-##### Analytics, Machine Learning
+#### Analytics, Machine Learning
 
 We are using the 
 
-##### Evaluation and Optimization
+#### Evaluation and Optimization
 
-##### Results
+#### Results
 
 Future Work, Comments - students may want to consider the following questions
 
-###### What was unique about the data?  Did you have to deal with imbalance? What data cleaning did you do? Outlier treatment?  Imputation?
+##### What was unique about the data?  Did you have to deal with imbalance? What data cleaning did you do? Outlier treatment?  Imputation?
 
 Our data is unique is because cars selling are one of the trending topics in the USA nowadays, especially during this COVID-19 period, where the price of car chips are becoming increasingly high.  
 
@@ -46,23 +46,23 @@ We didn't treat outliers.
 
 We revised some rows of the data in order to proceed data analysis and data predications.
 
-###### Did you create any new additional features / variables?
+##### Did you create any new additional features / variables?
 
 No, wo didnt create any new additional features or variables. 
 
-###### What was the process you used for evaluation?  What was the best result?
+##### What was the process you used for evaluation?  What was the best result?
 
 Using Sage Maker Canvas to produce evaluations. 
 
-###### Is there Bias in your work? What were the problems you faced? How did you solve them?
+##### Is there Bias in your work? What were the problems you faced? How did you solve them?
 
 Yes. We did sampling by filtering the original dataset into a smaller dataset, which could end up being a bit biased. 
 
-###### What future work would you like to do?
+##### What future work would you like to do?
 
 We would want to optimize the sampling dataset to reduce the bias, and use a better methodology on making certain predictations.
 
-###### Instructions for individuals that may want to use your work
+##### Instructions for individuals that may want to use your work
 
 For those who want to user our work: 
 
@@ -71,9 +71,9 @@ For those who want to user our work:
 3. Creating models using the datas
 4. Making predications using different methodolgies 
 
-###### Narrated PowerPoint or Video:  up to 8 minutes, provides summary of project and results
+#### Narrated PowerPoint or Video:  up to 8 minutes, provides summary of project and results
 
-###### Group members are also required to complete Final Group Project Evaluation (Individual).
+#### Group members are also required to complete Final Group Project Evaluation (Individual).
 # Deliverable 2
 
 ## Exploratory Data Analysis
