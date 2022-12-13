@@ -25,6 +25,7 @@ https://www.kaggle.com/datasets/ananaymital/us-used-cars-dataset
 4. In general, what is the general tendency when it comes to the number of seats in a car versus the price?
 
 # Deliverable 3
+-------
 #### Analytics, Machine Learning
 
 For the purposes of designing and implementing the relevant insightful visualization graphs, as well as providing responses to the relevant questions that we have been asking from the very beginning stages of this project, we are making use of the Quick Sight Visualization Tool that is available through the AWS Academy.
@@ -33,7 +34,7 @@ For the purposes of designing and implementing the relevant insightful visualiza
 -------
 #### Evaluation and Optimization
 https://docs.google.com/forms/d/e/1FAIpQLSf2hgc5hBMB1DMY3r35Twiq0S568WFvBjUZ9W6zCYSqSBxZDw/viewform?usp=sf_link
-
+-------
 #### Results
 
 Future Work, Comments - students may want to consider the following questions
@@ -74,10 +75,9 @@ For those who want to user our work:
 2. Run in through Sage Studio Canvas 
 3. Creating models using the datas
 4. Making predications using different methodolgies 
-
-#### Narrated PowerPoint or Video:  up to 8 minutes, provides summary of project and results
-
+-------
 #### Group members are also required to complete Final Group Project Evaluation (Individual).
+
 # Deliverable 2
 
 ## Exploratory Data Analysis
