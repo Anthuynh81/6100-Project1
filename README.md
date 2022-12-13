@@ -17,12 +17,16 @@ https://www.kaggle.com/datasets/ananaymital/us-used-cars-dataset
 
 ## Research Objectives and Question
 1. Which groups of automobiles, in terms of the fuel types they use, have an average horsepower rating that is the highest across the board?
+Response: Biodiesel have an average horsepower rating that is the highest across the board.
 
 2. In a broad sense, what is the most typical size of the fuel tank that has the most significant amount of mileage on it?
+Response: The most common size of the gasoline tank with the most significant mileage is 29 gallons.
 
 3. Which car manufacturers, in general, have the best and worst ratings for their vehicles' fuel economy?
+Response: The Toyota brand has an average fuel economy of 27, whereas McLaren has an average fuel economy of 12.
 
 4. In general, what is the general tendency when it comes to the number of seats in a car versus the price?
+Response: In general, two-seat cars are the most expensive, while nine-seat cars are the least expensive.
 
 # Deliverable 3
 -------
