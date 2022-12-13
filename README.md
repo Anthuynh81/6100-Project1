@@ -31,7 +31,9 @@ https://www.kaggle.com/datasets/ananaymital/us-used-cars-dataset
 
 For the purposes of designing and implementing the relevant insightful visualization graphs, as well as providing responses to the relevant questions that we have been asking from the very beginning stages of this project, we are making use of the Quick Sight Visualization Tool that is available through the AWS Academy.
 
-**[Contents Will Be Posted on a PDF File That Will Be Shared Via Google Drive]**
+Link: 
+https://docs.google.com/document/d/1zdUkEJwLUbHZHAn2GKwv8lvvL1tL00_WVIuBgGv71BM/edit?usp=sharing
+
 
 -------
 #### Evaluation and Optimization
