@@ -27,7 +27,7 @@ https://www.kaggle.com/datasets/ananaymital/us-used-cars-dataset
 # Deliverable 3
 #### Analytics, Machine Learning
 
-We are using the 
+For the purposes of designing and implementing the relevant insightful visualization graphs, as well as providing responses to the relevant questions that we have been asking from the very beginning stages of this project, we are making use of the Quick Sight Visualization Tool that is available through the AWS Academy.
 
 #### Evaluation and Optimization
 https://docs.google.com/forms/d/e/1FAIpQLSf2hgc5hBMB1DMY3r35Twiq0S568WFvBjUZ9W6zCYSqSBxZDw/viewform?usp=sf_link
