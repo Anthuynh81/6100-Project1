@@ -16,13 +16,14 @@ The distribution of  used automobiles is at the heart of our company's operati
 https://www.kaggle.com/datasets/ananaymital/us-used-cars-dataset
 
 ## Research Objectives and Question
-1. Which kind of automobile is the least expensive to purchase while offering the highest possible combined gas mileage rating?
+1. Which groups of automobiles, in terms of the fuel types they use, have an average horsepower rating that is the highest across the board?
 
-2. What kind of a correlation exists between the cost and the number of miles that can be traveled per gallon?
+2. In a broad sense, what is the most typical size of the fuel tank that has the most significant amount of mileage on it?
 
-3. Considering that the average fuel efficiency of cities varies, which city has the highest average fuel efficiency, and which city has the lowest average fuel efficiency? Which car manufacturer is most well-known in those cities, though? Exist even the remotest possibility of ties?
+3. Which car manufacturers, in general, have the best and worst ratings for their vehicles' fuel economy?
 
-4. Does the max speed, acceleration, and the cost of the car often have any kind of a link with one another in any way?
+4. In general, what is the general tendency when it comes to the number of seats in a car versus the price?
+
 # Deliverable 3
 #### Analytics, Machine Learning
 
