@@ -6,7 +6,7 @@ Git Hub Repository for ITCS 6100 Project
 - An Huynh
 
 ## Communication Plan
-We will get together at the library once a week. In the event that we go behind schedule, we have the option of increasing the total amount that we contribute in order to fulfill the target date.
+We have decided to get together once a week at the library. In the event that we go behind schedule, we reserve the right to increase the total amount that we donate in order to make the deadline that we set for ourselves.
 
 ## Business Problem or Opportunity, Domain Knowledge
 
