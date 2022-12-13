@@ -2,8 +2,8 @@
 Git Hub Repository for ITCS 6100 Project
 
 ## Members
-- An Huynh
 - He Zhao 
+- An Huynh
 
 ## Communication Plan
 We will get together at the library once a week. In the event that we go behind schedule, we have the option of increasing the total amount that we contribute in order to fulfill the target date.
