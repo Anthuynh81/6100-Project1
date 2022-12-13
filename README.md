@@ -39,7 +39,7 @@ https://docs.google.com/forms/d/e/1FAIpQLSf2hgc5hBMB1DMY3r35Twiq0S568WFvBjUZ9W6z
 -------
 #### Results
 
-Future Work, Comments - students may want to consider the following questions
+The following questions and our responses are as follows:
 
 ##### What was unique about the data?  Did you have to deal with imbalance? What data cleaning did you do? Outlier treatment?  Imputation?
 
