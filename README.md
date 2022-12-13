@@ -78,7 +78,6 @@ For those who want to user our work:
 3. Creating models using the datas
 4. Making predications using different methodolgies 
 -------
-#### Group members are also required to complete Final Group Project Evaluation (Individual).
 
 # Deliverable 2
 
