@@ -35,6 +35,10 @@ Response: In general, two-seat cars are the most expensive, while nine-seat cars
 
 For the purposes of designing and implementing the relevant insightful visualization graphs, as well as providing responses to the relevant questions that we have been asking from the very beginning stages of this project, we are making use of the Quick Sight Visualization Tool that is available through the AWS Academy.
 
+This document can be broken down into two sections. The first section consists of our Analytics visualization result, which consists of the respective visualization graphs for our respective queries. The investigation into machine learning is covered in the second section.
+
+Our Visualization Analytics and Machine Learning contents are placed in the following google doc as above:
+
 **Link:** 
 https://docs.google.com/document/d/1zdUkEJwLUbHZHAn2GKwv8lvvL1tL00_WVIuBgGv71BM/edit?usp=sharing
 
