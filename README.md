@@ -57,9 +57,9 @@ Our data is unique is because cars selling are one of the trending topics in the
 
 No, we did not deal with imbalance. 
 
-Yes, we have to filter the data, revise, and delete columns and rows in order to make the regarding predictations. 
+Yes, we have to filter the data, revise, and delete columns and rows in order to make the regarding predictations. We also had to fill in rows with missing data.
 
-We didn't treat outliers. 
+One way that we had to treat outliers was finding the inner quartile range. and remvoing results that were outside.
 
 We revised some rows of the data in order to proceed data analysis and data predications.
 
